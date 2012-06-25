@@ -68,6 +68,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/jewel/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/jewel/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
+  vendor/htc/jewel/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
+  vendor/htc/jewel/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+  vendor/htc/jewel/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
   vendor/htc/jewel/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/jewel/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/jewel/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
