@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/jewel/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/jewel/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-  vendor/htc/jewel/proprietary/bin/sound8960:system/bin/sound8960 \
   vendor/htc/jewel/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/jewel/proprietary/bin/thermald:system/bin/thermald \
   vendor/htc/jewel/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -68,9 +67,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/htc/jewel/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/htc/jewel/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
-  vendor/htc/jewel/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
-  vendor/htc/jewel/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-  vendor/htc/jewel/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
   vendor/htc/jewel/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
   vendor/htc/jewel/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/jewel/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -117,4 +113,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/jewel/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/htc/jewel/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
   vendor/htc/jewel/proprietary/lib/hw/sensors.jet.so:system/lib/hw/sensors.jet.so \
-  vendor/htc/jewel/proprietary/lib/libv8.so:system/lib/libv8.so
+  vendor/htc/jewel/proprietary/lib/libv8.so:system/lib/libv8.so \
+  vendor/htc/jewel/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+  vendor/htc/jewel/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so
